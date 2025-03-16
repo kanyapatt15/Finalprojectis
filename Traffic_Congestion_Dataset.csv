@@ -1,0 +1,11 @@
+Location,Time,Congestion_Level,Accident_Reported
+Intersection A,08:00,5.0,1.0
+Highway B,08:30,2.0,1.0
+Street C,09:00,4.0,1.0
+Main Road D,09:30,4.0,1.0
+Avenue E,10:00,4.0,1.0
+Intersection F,17:00,4.0,1.0
+Highway G,17:30,5.0,1.0
+Street H,18:00,3.0,0.0
+Main Road I,18:30,,
+Avenue J,19:00,1.0,1.0

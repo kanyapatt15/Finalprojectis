@@ -1,0 +1,5 @@
+import pickle
+
+# บันทึกโมเดล Neural Network
+with open("model_2.pkl", "wb") as file:
+    pickle.dump(nn_model, file)

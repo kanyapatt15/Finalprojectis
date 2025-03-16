@@ -1,0 +1,11 @@
+Station,Time,Delay_Minutes,Reason
+Central,07:45,10.0,Weather
+North,08:15,20.0,Technical Issue
+East,08:45,10.0,nan
+West,09:15,10.0,High Passenger Volume
+South,09:45,20.0,Technical Issue
+Midtown,16:45,20.0,nan
+Uptown,17:15,5.0,nan
+Downtown,17:45,,nan
+Harbor,18:15,,Technical Issue
+Airport,18:45,10.0,Technical Issue

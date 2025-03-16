@@ -1,0 +1,5 @@
+import pickle
+
+# บันทึกโมเดล Machine Learning
+with open("model_1.pkl", "wb") as file:
+    pickle.dump(ml_model, file)

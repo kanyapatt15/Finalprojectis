@@ -1,0 +1,2 @@
+# บันทึกโมเดล Neural Network
+nn_model.save("nn_model.h5")

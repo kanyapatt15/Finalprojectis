@@ -1,0 +1,101 @@
+Station,Time,Delay_Minutes,Reason
+University,06:00,20.0,Maintenance
+Airport,17:30,15.0,nan
+Market,07:00,10.0,Maintenance
+East,16:30,25.0,Weather
+Central,08:00,25.0,Weather
+Downtown,17:00,15.0,Maintenance
+Industrial Zone,07:00,20.0,Technical Issue
+East,06:00,5.0,High Passenger Volume
+University,06:00,20.0,Technical Issue
+Airport,09:30,15.0,Technical Issue
+Uptown,16:00,25.0,Technical Issue
+Airport,16:30,20.0,nan
+South,17:00,25.0,Weather
+Airport,17:30,5.0,Technical Issue
+South,17:30,25.0,Weather
+Market,17:00,25.0,Maintenance
+Uptown,18:30,10.0,High Passenger Volume
+Industrial Zone,18:00,10.0,Maintenance
+Harbor,06:30,,Maintenance
+University,17:30,10.0,nan
+South,07:00,25.0,High Passenger Volume
+Central,06:30,15.0,Maintenance
+Airport,07:00,25.0,Maintenance
+Airport,09:00,15.0,High Passenger Volume
+Central,06:00,15.0,High Passenger Volume
+Industrial Zone,16:00,10.0,Maintenance
+North,09:30,20.0,High Passenger Volume
+Market,17:30,5.0,Maintenance
+Midtown,16:00,10.0,Maintenance
+Harbor,16:00,10.0,nan
+Downtown,16:00,20.0,Technical Issue
+City Hall,18:00,5.0,Maintenance
+South,06:30,25.0,Weather
+Central,07:00,,Technical Issue
+City Hall,10:00,,Technical Issue
+Uptown,09:00,25.0,Technical Issue
+Industrial Zone,07:30,10.0,nan
+South,16:00,5.0,Maintenance
+Midtown,08:00,10.0,nan
+City Hall,06:30,15.0,Maintenance
+Uptown,17:30,10.0,nan
+East,16:30,10.0,nan
+University,17:30,25.0,Weather
+Airport,09:30,25.0,nan
+East,07:30,25.0,High Passenger Volume
+South,10:00,,Weather
+Midtown,08:00,15.0,nan
+Harbor,17:30,25.0,Technical Issue
+City Hall,10:00,5.0,High Passenger Volume
+Market,07:30,,High Passenger Volume
+University,16:00,20.0,High Passenger Volume
+South,08:00,5.0,Weather
+Industrial Zone,10:00,5.0,nan
+Central,09:30,25.0,nan
+Market,19:00,20.0,Technical Issue
+Market,07:00,20.0,Technical Issue
+Market,06:00,,High Passenger Volume
+West,07:00,20.0,Technical Issue
+South,19:00,15.0,Weather
+University,07:30,25.0,nan
+Airport,06:30,20.0,High Passenger Volume
+Airport,06:00,,Technical Issue
+South,09:00,15.0,Weather
+Uptown,19:00,10.0,Weather
+West,09:30,10.0,Technical Issue
+Central,09:00,15.0,nan
+Market,18:00,,Technical Issue
+Market,19:00,15.0,High Passenger Volume
+South,08:00,25.0,Technical Issue
+Uptown,17:00,25.0,Weather
+Airport,06:00,10.0,Technical Issue
+Airport,09:00,20.0,nan
+Midtown,17:30,,Maintenance
+South,09:00,10.0,Technical Issue
+West,10:00,20.0,nan
+North,07:00,20.0,nan
+West,10:00,25.0,Weather
+Industrial Zone,18:00,5.0,nan
+Airport,06:00,5.0,nan
+Airport,06:00,15.0,nan
+East,18:00,25.0,nan
+Airport,07:30,20.0,High Passenger Volume
+Central,19:00,,High Passenger Volume
+Downtown,10:00,5.0,Weather
+South,08:30,20.0,Technical Issue
+City Hall,17:30,5.0,nan
+West,16:30,5.0,Technical Issue
+Downtown,07:00,5.0,Technical Issue
+Uptown,06:00,,Weather
+North,07:30,25.0,nan
+Central,17:00,,nan
+University,17:30,10.0,Maintenance
+Tech Park,10:00,20.0,Technical Issue
+West,07:00,25.0,Technical Issue
+Downtown,17:00,25.0,High Passenger Volume
+University,10:00,25.0,Maintenance
+North,09:00,25.0,High Passenger Volume
+East,17:00,,High Passenger Volume
+University,18:00,25.0,High Passenger Volume
+Central,18:30,15.0,Weather
