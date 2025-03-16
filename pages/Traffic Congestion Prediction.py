@@ -41,24 +41,24 @@ scaler.fit(traffic_data[numerical_features])
 joblib.dump(scaler, "scaler.pkl")
 
 # Define and train Neural Network model
-X_traffic = np.hstack([encoder_traffic.transform(traffic_data[['Location']]), scaler.transform(traffic_data[numerical_features])])
-y_traffic = np.random.rand(X_traffic.shape[0])  # Placeholder, replace with actual target variable if available
+#X_traffic = np.hstack([encoder_traffic.transform(traffic_data[['Location']]), scaler.transform(traffic_data[numerical_features])])
+#y_traffic = np.random.rand(X_traffic.shape[0])  # Placeholder, replace with actual target variable if available
 
-nn_model = keras.Sequential([
-    keras.layers.Dense(64, activation='relu', input_shape=(X_traffic.shape[1],)),
-    keras.layers.Dense(32, activation='relu'),
-    keras.layers.Dense(16, activation='relu'),
-    keras.layers.Dense(1)
-])
+#nn_model = keras.Sequential([
+   # keras.layers.Dense(64, activation='relu', input_shape=(X_traffic.shape[1],)),
+   # keras.layers.Dense(32, activation='relu'),
+   # keras.layers.Dense(16, activation='relu'),
+    #keras.layers.Dense(1)
+#])
 
-nn_model.compile(optimizer='adam', loss=tf.keras.losses.MeanSquaredError(), metrics=[tf.keras.metrics.MeanAbsoluteError()])
-nn_model.fit(X_traffic, y_traffic, epochs=10, batch_size=16, verbose=0)
-nn_model.save("traffic_nn_model.h5")
+#nn_model.compile(optimizer='adam', loss=tf.keras.losses.MeanSquaredError(), metrics=[tf.keras.metrics.MeanAbsoluteError()])
+#nn_model.fit(X_traffic, y_traffic, epochs=10, batch_size=16, verbose=0)
+#nn_model.save("traffic_nn_model.h5")
 
 # Load pre-trained models
 encoder_traffic = joblib.load("encoder_traffic.pkl")
 scaler = joblib.load("scaler.pkl")
-nn_model = keras.models.load_model("traffic_nn_model.h5")
+nn_model = keras.models.load_model("../traffic_nn_model.h5")
 
 # Streamlit UI
 st.title("Traffic Congestion Prediction")
