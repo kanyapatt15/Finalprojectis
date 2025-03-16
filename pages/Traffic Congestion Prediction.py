@@ -58,7 +58,7 @@ joblib.dump(scaler, "scaler.pkl")
 # Load pre-trained models
 encoder_traffic = joblib.load("encoder_traffic.pkl")
 scaler = joblib.load("scaler.pkl")
-nn_model = keras.models.load_model("../traffic_nn_model.h5")
+nn_model = keras.models.load_model("traffic_nn_model.h5")
 
 # Streamlit UI
 st.title("Traffic Congestion Prediction")
